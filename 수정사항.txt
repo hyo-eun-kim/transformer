@@ -1,0 +1,16 @@
+코드 자체가 번역을 수행하는 거라서 크게 바꿔야 할 사항은 없었다.
+
+build_pickles.py에서 파일이름을 바꿔주는 것,
+utils.py의 load_dataset에서 파일이름 바꿔주는 것 정도?
+
+이 코드는 kor - eng 번역을 수행하는 거였고,
+우리에게 주어진 데이터도 kor - eng라서 파일이름만 바꾸면 되었지만,
+만약에 다른 언어였다면 세부적으로 Field 이름 등을 바꿔주었어야 한다
++ tokenizer까지!
+
+여기서도 다른 tokenizer를 사용할수도 있겠다!
+
++ pickles/tokenizer.pickle은 어떤거 의미하는거지?? -> 이거 ㅠㅠ
+
++) 어찌저찌해서 우리의 데이터에 대해 tokenizing해서 kor.pickle, eng.pickle 만들었는데
+tokenizer.pickle이 무엇을 의미하는 지 모르겠다 ,, 
